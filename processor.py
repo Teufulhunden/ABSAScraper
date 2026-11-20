@@ -18,3 +18,5 @@ preds = model.predict(reviews['review'].tolist())
 for i in preds:
     print(i)
 
+    
+
