@@ -1,4 +1,4 @@
-from setfit import AbsaModel, AbsaTrainer, TrainingArguments
+  from setfit import AbsaModel, AbsaTrainer, TrainingArguments
 from transformers import EarlyStoppingCallback
 from datasets import load_dataset
 import os

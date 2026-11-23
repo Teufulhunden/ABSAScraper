@@ -6,7 +6,7 @@ access_token = os.getenv("HF_token_key")
 
 model = AbsaModel.from_pretrained(
     "tomaarsen/setfit-absa-bge-small-en-v1.5-restaurants-aspect",
-    "tomaarsen/setfit-absa-bge-small-en-v1.5-restaurants-polarity",
+    "tomaars/setfit-absa-bge-small-en-v1.5-restaurants-polarity",
     token=access_token,
 )
 
